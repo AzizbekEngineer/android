@@ -85,6 +85,15 @@
 .telefon__card:nth-child(6) {
   background: rgba(237, 227, 208, 0.682);
 }
+.telefon__btns {
+  padding: 40px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.telefon__btn{
+    font-size: 20px;
+}
 
 @media (max-width: 1025px) {
   .telefon__cards {
@@ -116,4 +125,8 @@
     font-size: 25px;
     line-height: 25px;
   }
+
+  .telefon__btn{
+    font-size: 14px;
+}
 }
