@@ -1,0 +1,91 @@
+.enjoy {
+  padding: 100px 0;
+}
+
+.enjoy__desc {
+  padding: 20px 0;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--primaryColor);
+}
+.enjoy__card {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding-left: 100px;
+  background: url(../images/enjoy.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+  border-radius: 100px;
+}
+
+.enjoy__title {
+  max-width: 600px;
+  font-size: 80px;
+  line-height: 80px;
+  color: var(--secondaryColor);
+}
+
+.enjoy__btn {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--secondaryColor);
+  background: var(--primaryColor);
+}
+
+.enjoy__btn i {
+  color: green;
+}
+
+.enjoy__btn:hover {
+  color: var(--primaryColor);
+}
+
+@media (max-width: 1025px) {
+  .enjoy__title {
+    width: 80%;
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .enjoy__card {
+    border-radius: 50px;
+    padding-left: 50px;
+  }
+  .enjoy__title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .enjoy__card {
+    border-radius: 30px;
+    padding-left: 20px;
+  }
+  .enjoy__title {
+    width: 100%;
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .enjoy__btn {
+    font-size: 14px;
+  }
+  .enjoy {
+    padding: 30px 0;
+  }
+  .enjoy__desc {
+    padding: 15px 0 0;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--primaryColor);
+  }
+}
